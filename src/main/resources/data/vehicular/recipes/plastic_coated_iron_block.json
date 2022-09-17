@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "vehicular:plastic_sheet"
+    },
+    "#": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "vehicular:plastic_coated_iron_block"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "",
+    "###",
+    ""
+  ],
+  "key": {
+    "#": {
+      "item": "vehicular:plastic_clump"
+    }
+  },
+  "result": {
+    "item": "vehicular:plastic_sheet",
+    "count": 3
+  }
+}
