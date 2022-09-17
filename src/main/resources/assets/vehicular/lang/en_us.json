@@ -2,6 +2,9 @@
   "item.vehicular.plastic_sheet": "Plastic Sheet",
   "item.vehicular.plastic_clump": "Plastic Clump",
 
+  "block.vehicular.plastic_coated_iron_block": "Plastic Coated Block of Iron",
+  "block.vehicular.plastic_block": "Block of Plastic",
+
   "itemGroup.vehiculartab": "Vehicular Mod"
 
 }

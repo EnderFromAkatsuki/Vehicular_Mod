@@ -1,6 +1,8 @@
 package net.enderfromakatsuki.vehicular;
 
 import com.mojang.logging.LogUtils;
+import net.enderfromakatsuki.vehicular.block.ModBlocks;
+import net.enderfromakatsuki.vehicular.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -18,6 +20,10 @@ public class Vehicular {
 
     public Vehicular() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
 
         modEventBus.addListener(this::commonSetup);
 
